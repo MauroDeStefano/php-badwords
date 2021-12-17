@@ -18,6 +18,7 @@ $frase = "Questa è la frase in cui eviedentemente c'è qualche parola che non p
     <h1>
         <?php echo str_replace($_GET['toClear'] , "***", $frase)?>
     </h1>
+    <h2>Questo paragrafo è lungo <?php echo strlen(str_replace($_GET['toClear'] , "***", $frase)) ?></h2>
 
 </body>
 </html>
